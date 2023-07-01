@@ -4,6 +4,14 @@ public class JumpGame {
         int a = array[0];
         int b = array[0];
         int jumps = 1;
+
+        for(int i = 0; i < array.length;i++){
+            if(i == array.length-1){
+                return jumps;
+            }
+
+        }
+        return jumps;
     }
 
     public static void main(String[] args){
