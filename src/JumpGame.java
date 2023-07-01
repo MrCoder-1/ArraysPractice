@@ -10,6 +10,11 @@ public class JumpGame {
                 return jumps;
             }
 
+            if(array[i] > b){
+                b = array[i];
+            }
+
+
         }
         return jumps;
     }
