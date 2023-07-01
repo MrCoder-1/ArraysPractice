@@ -14,7 +14,10 @@ public class JumpGame {
                 b = array[i];
             }
 
-
+            if(a == 0){
+                jumps++;
+                a = b;
+            }
         }
         return jumps;
     }
