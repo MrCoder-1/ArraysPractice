@@ -10,6 +10,9 @@ public class MoveZerosToEnd {
                 array[counter++] = array[i];
             }
         }
+        while(counter < array.length -1){
+            array[counter++] = 0;
+        }
     }
 
     public static void main(String[] args) {
