@@ -4,6 +4,12 @@ public class MoveZerosToEnd {
 
     static void moveZeroesToEnd(int [] array){
 
+        int counter = 0;
+        for (int i = 0; i < array.length; i++) {
+            if(array[i] != 0){
+                array[counter++] = array[i];
+            }
+        }
     }
 
     public static void main(String[] args) {
