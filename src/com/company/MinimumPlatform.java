@@ -4,6 +4,10 @@ public class MinimumPlatform {
 
     static void minimumPlatform(int[] arrival, int[] departure){
 
+        int length = arrival.length;
+        int i = 0;
+        int j = 0;
+
     }
 
     public static void main(String[] args) {
